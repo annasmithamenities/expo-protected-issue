@@ -41,7 +41,7 @@ export default function RootLayout() {
         screenOptions={{
           header: (props) => <Header name={props.route.name} />,
         }}
-      ></Stack>
+      />
       <StatusBar style="auto" />
     </AppContext>
   );
